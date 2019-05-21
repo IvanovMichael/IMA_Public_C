@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/michaelivanov/CLionProjects/binary_tree/main.c
+stdio.h
+-
+tree.h
+/Users/michaelivanov/CLionProjects/binary_tree/tree.h
+
+/Users/michaelivanov/CLionProjects/binary_tree/tree.c
+tree.h
+/Users/michaelivanov/CLionProjects/binary_tree/tree.h
+stdlib.h
+-
+
+/Users/michaelivanov/CLionProjects/binary_tree/tree.h
+
